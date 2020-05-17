@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #5d5f60 !important;
+}
+
+.navbar img {
+  width: 90px;
+  height: 30px;
+}
+
+.nav-item a {
+  color: white !important;
+}
