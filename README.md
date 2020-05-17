@@ -2,7 +2,7 @@ Mini-project created by @trinajoy.
 
 Create a mock of DR.DK using Bootstrap 4.
 
-## Getting Started
+## Project Specifications
 
 - Create Nav Bar
 - Create Footer
