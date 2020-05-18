@@ -29,6 +29,9 @@ body {
 
 .fixed-bottom {
   background-color: #5d5f60 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .fas.fa-exclamation-triangle {
