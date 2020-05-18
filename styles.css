@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .navbar {
   background-color: #5d5f60 !important;
 }
@@ -7,6 +18,61 @@
   height: 30px;
 }
 
-.nav-item a {
+.fas.fa-exclamation-triangle {
+  color: #6fb8f8;
+}
+
+.nav-item a:not(.dropdown-item) {
   color: white !important;
+  font-size: 16px;
+}
+
+.nav-item.right-list {
+  color: white !important;
+  font-weight: lighter;
+}
+
+/* .dropdown-toggle:active,
+.open .dropdown-toggle {
+  background: #fff !important;
+  color: #000 !important;
+} */
+
+.navbar form {
+  background-color: #5d5f60;
+}
+
+.form-inline {
+  border: 0;
+  outline: 0;
+}
+
+.form-control {
+  width: 150px;
+  border: 0;
+  outline: 0;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.form-control input:focus {
+  border: 0;
+  outline: 0;
+}
+
+.form-control:hover {
+  background-color: #444648;
+  border: 0;
+  outline: 0;
+}
+
+.search {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  border: 2px solid red;
 }
