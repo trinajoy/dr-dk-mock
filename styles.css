@@ -14,14 +14,14 @@ body {
   background-color: #5d5f60 !important;
 }
 
-.navbar img,
-.footer img {
+.navbar img {
   width: 90px;
   height: 30px;
 }
 
-.fixed-bottom.nav-item a {
-  font-size: 24px;
+#logo img {
+  width: 90px;
+  height: 30px;
 }
 
 .fixed-bottom.nav-item {
