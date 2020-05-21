@@ -14,6 +14,10 @@ body {
   background-color: #4b4d4e !important;
 }
 
+.form-control.footer {
+  background-color: #5d5f60;
+}
+
 .navbar {
   background-color: #5d5f60 !important;
 }
