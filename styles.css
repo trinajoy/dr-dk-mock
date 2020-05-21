@@ -10,6 +10,10 @@ body {
   font-weight: lighter;
 }
 
+#footer {
+  background-color: #4b4d4e !important;
+}
+
 .navbar {
   background-color: #5d5f60 !important;
 }
