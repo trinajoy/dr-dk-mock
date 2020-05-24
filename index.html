@@ -14,16 +14,17 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a class="”navbar-brand”" href="”www.dr.dk”" id="logo">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-2 px-0">
+    <a class="navbar-brand ml-5" href="www.dr.dk" id="logo">
       <img src="images/logo.png" alt="logo" />
     </a>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
       <ul class="navbar-nav mr-auto font-weight-normal">
-        <li class="nav-item dropdown mx-sm-2">
+        <li class="nav-item dropdown mx-3">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Nyheder
+            <i class="fas fa-arrow-down ml-1 py-1 px-1"></i>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Action</a>
@@ -32,20 +33,20 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
-        <li class="nav-item mx-sm-2">
+        <li class="nav-item mx-3">
           <a class="nav-link" href="#">TV</a>
         </li>
-        <li class="nav-item mx-sm-2">
+        <li class="nav-item mx-3">
           <a class="nav-link" href="#">Radio</a>
         </li>
       </ul>
     </div>
 
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item mx-sm-2">
-          <a class="nav-link" href="https://www.dr.dk/om-dr/dr-og-dine-data/om-dr-og-dine-data">
-            <i class="fas fa-exclamation-triangle"></i> Privatlivspolitik</a>
+          <a class="nav-link text-nowrap" href="https://www.dr.dk/om-dr/dr-og-dine-data/om-dr-og-dine-data">
+            <i class="fas fa-exclamation-triangle mr-1"></i> Privatlivspolitik</a>
         </li>
         <li class="nav-item mx-sm-2">
           <a class="nav-link text-nowrap" href="https://dr.custhelp.com/">KONTAKT DR</a>
@@ -53,7 +54,6 @@
         <li>
           <form class="form-control my-2 my-lg-0">
             <input class="form-inline" type="search" placeholder="SØG PÅ DR.DK" aria-label="Search" />
-            <!-- <i class="fas fa-search ml-auto pt-2 pl-3"></i> -->
           </form>
         </li>
       </ul>
@@ -66,18 +66,100 @@
     </div>
   </nav>
 
+  <!-- main content -->
+  <section class="container content">
+
+    <div class="row py-0">
+      <div class="col-md-12 py-2 border-bottom">
+        <ul class="">
+          <li class="d-inline mx-1">
+            <a class="" href="www.dr.dk" id="focus-bar">
+              <img src="images/corona.jpg" alt="logo" />
+            </a>
+          </li>
+          <li class="d-inline mx-1">
+            <a class="" href="www.dr.dk" id="focus-bar">
+              <img src="images/vilde.jpg" alt="logo" />
+            </a>
+          </li>
+          <li class="d-inline mx-1">
+            <a class="" href="www.dr.dk" id="focus-bar">
+              <img src="images/bedrag.jpg" alt="logo" />
+            </a>
+          </li>
+          <li class="d-inline mx-1">
+            <a class="" href="www.dr.dk" id="focus-bar">
+              <img src="images/sport.jpg" alt="logo" />
+            </a>
+          </li>
+          <li class="d-inline mx-1">
+            <a class="" href="www.dr.dk" id="focus-bar-sqaure">
+              <img src="images/ultra.jpg" alt="logo" />
+            </a>
+          </li>
+          <li class="d-inline mx-1">
+            <a class="" href="www.dr.dk" id="focus-bar-sqaure">
+              <img src="images/r2020n.jpg" alt="logo" />
+            </a>
+          </li>
+          <li class="d-inline mx-1">
+            <a class="" href="www.dr.dk" id="focus-bar-sqaure">
+              <img src="images/u2020.jpg" alt="logo" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row py-2">
+      <div class="col-lg-8 py-2">
+        <div class="row">
+          <div class="col-lg-6">
+            <ul class="overflow-text">
+              <li class="d-inline focus-bar-article-link">
+                <h6 class="py-0 my-0 mb-n1"> SENESTE NYT: 54 MIN. SIDEN </h6>
+                <a class="py-0 my-0 font-weight-bold" href="www.dr.dk" id=""> Kloakvand bliver ledt
+                  ud ved deres strand: 'Det
+                  giver ikke mening'... </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li class="d-inline focus-bar-link">
+                <a class="" href="www.dr.dk" id=""> <i class="fas fa-arrow-right icons mr-1"></i> FÅ HELE
+                  NYHEDSOVERBLIKKET
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-lg-4 text-right">
+        <ul class="">
+          <li class="d-inline focus-bar-link">
+            <a class="mr-3" href="www.dr.dk" id=""> <i class="fas fa-tv icons mr-1"></i> TV-GUIDEN </a>
+          </li>
+          <li class="d-inline focus-bar-link">
+            <a class="" href="www.dr.dk" id=""> <i class="fas fa-volume-up icons mr-1"></i> HOR-RADIO
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <!-- footer -->
   <section class="container-fluid footer fixed-bottom py-3">
     <div class="row">
       <div class="col-md-10">
-        <a class="”navbar-brand" href="”www.dr.dk”" id="logo">
+        <a class="”navbar-brand ml-5" href="”www.dr.dk”" id="logo">
           <img src="images/logo.png" alt="logo" />
         </a>
       </div>
       <div class="col-md-2">
         <form class="form-control ml-auto footer my-2 my-lg-0">
           <input class="form-inline" type="search" placeholder="SØG PÅ DR.DK" aria-label="Search" />
-          <!-- <i class="fas fa-search pt-2 pl-3 bg-danger"></i> -->
         </form>
       </div>
     </div>
@@ -186,9 +268,9 @@
       </ul>
     </div>
 
-    <div class="row fixed-bottom py-1" id="footer">
-      <div class="col-md-10 col-sm-1 col-1 mr-auto">
-        <ul class="nav text-nowrap">
+    <div class="row fixed-bottom py-2" id="footer">
+      <div class="col-md-7 col-sm-2 col-2">
+        <ul class="nav text-nowrap justify-content-left">
           <li class="nav-item">
             <a class="nav-link font-weight-normal" href="#"> DR </a>
           </li>
@@ -203,8 +285,8 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-2 col-sm-1 col-1">
-        <ul class="nav text-nowrap justify-content-end pr-2">
+      <div class="col-md-5 col-sm-1 col-1">
+        <ul class="nav text-nowrap text-right pr-2">
           <li class="nav-item">
             <a class="nav-link font-weight-normal" href="#"> Kontakt DR</a>
           </li>
@@ -212,10 +294,6 @@
       </div>
     </div>
   </section>
-
-
-
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
